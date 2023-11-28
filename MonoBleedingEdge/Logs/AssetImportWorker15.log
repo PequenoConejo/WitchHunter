@@ -1,0 +1,484 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'ru' Physical Memory: 16063 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Games/UnityProjects/WitchHunter
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+50834
+Successfully changed project path to: C:/Games/UnityProjects/WitchHunter
+C:/Games/UnityProjects/WitchHunter
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7788] Host "[IP] 25.25.220.12 [Port] 0 [Flags] 2 [Guid] 2006591916 [EditorId] 2006591916 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M91KM8H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7788] Host "[IP] 25.25.220.12 [Port] 0 [Flags] 2 [Guid] 2006591916 [EditorId] 2006591916 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-M91KM8H) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 118.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Games/UnityProjects/WitchHunter/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
+    Vendor:   NVIDIA
+    VRAM:     8033 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003016 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.478 seconds
+Domain Reload Profiling:
+	ReloadAssembly (479ms)
+		BeginReloadAssembly (46ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (354ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004074 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Games\UnityProjects\WitchHunter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Games\UnityProjects\WitchHunter\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 98.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.031 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1032ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (857ms)
+			LoadAssemblies (73ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (471ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (214ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5421 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (1.8 MB). Loaded Objects now: 5852.
+Memory consumption went from 214.7 MB to 212.9 MB.
+Total: 7.396500 ms (FindLiveObjects: 0.622400 ms CreateObjectMapping: 0.464600 ms MarkObjects: 4.545700 ms  DeleteObjects: 1.762100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1489361.589414 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Bush 04.asset
+  artifactKey: Guid(38a0225e7209f5545a6e1ea98235e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Bush 04.asset using Guid(38a0225e7209f5545a6e1ea98235e9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7393c651d699da457effb97008a8b19') in 0.111808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Chest Wooden 1.asset
+  artifactKey: Guid(8bd73817568cc714cba8388692757757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Chest Wooden 1.asset using Guid(8bd73817568cc714cba8388692757757) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0469c7b05665daf560d8664aa071fc7b') in 0.022450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Cloth 14.asset
+  artifactKey: Guid(68fc353008302d840a8286930c7f2456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Cloth 14.asset using Guid(68fc353008302d840a8286930c7f2456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef4bafb590cdc3244384bcc0f6a3b009') in 0.025156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.416479 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Cloth 16.asset
+  artifactKey: Guid(416203ddcd77aaa4d99ccc2084934b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Cloth 16.asset using Guid(416203ddcd77aaa4d99ccc2084934b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53eb4cc608e4c1103c957a225011d21c') in 0.025161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Rope 03.asset
+  artifactKey: Guid(c112a44f519ea7c40921308114ad4caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Clother Hanger Rope 03.asset using Guid(c112a44f519ea7c40921308114ad4caf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b65ac54f09e25d62af946118e101734d') in 0.016376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Crate Small 1.asset
+  artifactKey: Guid(9885e36b92dbab24a81f6a318d80a874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Crate Small 1.asset using Guid(9885e36b92dbab24a81f6a318d80a874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b535ddb29a12dca95d3950e9916790a') in 0.030398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043831 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Pillar 04.asset
+  artifactKey: Guid(050cb4e3733798640ae9de8fc80de52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Pillar 04.asset using Guid(050cb4e3733798640ae9de8fc80de52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df915dc8108ca31a8fed73983c459699') in 0.021662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Rail 05.asset
+  artifactKey: Guid(2791239450dcf5844a960335ff0e25a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 01 Rail 05.asset using Guid(2791239450dcf5844a960335ff0e25a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b566b84a54abf0994b04ef940b5a3a7') in 0.016376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.464910 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 02 Rail 1.asset
+  artifactKey: Guid(2fd2e5c70d77c674ba16ea7b6cfb640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Fence 02 Rail 1.asset using Guid(2fd2e5c70d77c674ba16ea7b6cfb640f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '447728d49483d9cd293dcf2a37268096') in 0.035087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043100 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 10.asset
+  artifactKey: Guid(c339e23e2230a724aa204c9d84ad643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 10.asset using Guid(c339e23e2230a724aa204c9d84ad643a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad5a9cf516e4ac51ffdac7523678d5b9') in 0.021510 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118584 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 14.asset
+  artifactKey: Guid(5dcc70e31bc9afb4eb2dd866df85bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Grass 14.asset using Guid(5dcc70e31bc9afb4eb2dd866df85bcd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09223869d904937154d88a6ed9fa980') in 0.024829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Gravestone 06.asset
+  artifactKey: Guid(33da43fb63fc7b0479dd03bd20603f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Gravestone 06.asset using Guid(33da43fb63fc7b0479dd03bd20603f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369c0c6e1984fa417feea14b0b4f20f3') in 0.016292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.410990 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Gravestone 08.asset
+  artifactKey: Guid(686e3dc2f1587324480cac2462b288b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Gravestone 08.asset using Guid(686e3dc2f1587324480cac2462b288b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78dcf6090e32b2f0daf79a2297100745') in 0.033866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.612307 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Obstacle Platform Large 03.asset
+  artifactKey: Guid(1d575dfae91126640bf6e9cb488cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Obstacle Platform Large 03.asset using Guid(1d575dfae91126640bf6e9cb488cbf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee5dc672a517f477a951e51f9a9424ae') in 0.022384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform M 03.asset
+  artifactKey: Guid(9fcdeec45cf9cea48b1c0576e33134f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform M 03.asset using Guid(9fcdeec45cf9cea48b1c0576e33134f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '619ac2b52b45d480f7ef15533aa98e7e') in 0.014457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform L 05.asset
+  artifactKey: Guid(19c108a23c0e85547b3f317a293d191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform L 05.asset using Guid(19c108a23c0e85547b3f317a293d191a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddde705f770fdeec5ae7215e4b20e0a1') in 0.021902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pot 06.asset
+  artifactKey: Guid(7a3bc2012a8a4804897273d95cbfd0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pot 06.asset using Guid(7a3bc2012a8a4804897273d95cbfd0cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a31685480dff76e92c4148e8a6d7ea9') in 0.020894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform L 06.asset
+  artifactKey: Guid(acb5d4af2dccb6e4884f8d77a130e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Platform L 06.asset using Guid(acb5d4af2dccb6e4884f8d77a130e3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c97a520d40e4515fe1e45ee76714f0f') in 0.022308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pumpkin 04.asset
+  artifactKey: Guid(ce3dc6485beac204f93e9ea8fa78a564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pumpkin 04.asset using Guid(ce3dc6485beac204f93e9ea8fa78a564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86082c32653671db25329633022dfd25') in 0.023188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pumpkin 03.asset
+  artifactKey: Guid(13f4f294be9db06409cd89057f5030ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Pumpkin 03.asset using Guid(13f4f294be9db06409cd89057f5030ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eea5a54ba108d3483b158ed4548cea') in 0.013750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.168030 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Sign 04.asset
+  artifactKey: Guid(0f03128f300dce64aa7d666becf84b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Road Sign 04.asset using Guid(0f03128f300dce64aa7d666becf84b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b8c18fcddb7ca9d0630eb9343e5d31') in 0.014746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Scarecrow 1.asset
+  artifactKey: Guid(6e549137cf51651408e727eaf9c985b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Scarecrow 1.asset using Guid(6e549137cf51651408e727eaf9c985b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bd57fbf3c6f5045709cee3f25e0ccfe') in 0.021257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Rock 04.asset
+  artifactKey: Guid(4adc8750af40b404eb51c0f6414ac93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Rock 04.asset using Guid(4adc8750af40b404eb51c0f6414ac93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb77846a34d03ce9e4158591522683e') in 0.015178 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stairs X32 1.asset
+  artifactKey: Guid(2570b7fe599cff8469bdcfd77fcc3c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stairs X32 1.asset using Guid(2570b7fe599cff8469bdcfd77fcc3c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7037a7e3b84c229e2398d1bb136151') in 0.013378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sign 02.asset
+  artifactKey: Guid(e3971a9376ac645488b0f92a084d9ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sign 02.asset using Guid(e3971a9376ac645488b0f92a084d9ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950c609e402034d25e73e4175bc4db31') in 0.013228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.166633 seconds.
+  path: Assets/MagicCliffsArtwork
+  artifactKey: Guid(6aee79fe02b6c7d418cc27644b8c47eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork using Guid(6aee79fe02b6c7d418cc27644b8c47eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d822dfc52cf7a368ca3cf43a3a0f1d4') in 0.006167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.717907 seconds.
+  path: Assets/MagicCliffsArtwork/SkyPalette.prefab
+  artifactKey: Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/SkyPalette.prefab using Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3c12b61f6386a3d2b73d0d4748f195') in 0.159348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.842899 seconds.
+  path: Assets/MagicCliffsArtwork/SkyPalette.prefab
+  artifactKey: Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/SkyPalette.prefab using Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e1320a6fe12c0abe4dccdc95cb9167') in 0.013710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.646520 seconds.
+  path: Assets/MagicCliffsArtwork/SkyPalette.prefab
+  artifactKey: Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/SkyPalette.prefab using Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '925026b117b9824bea38fb84cbe53da9') in 0.014084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.914155 seconds.
+  path: Assets/MagicCliffsArtwork/SkyPalette.prefab
+  artifactKey: Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/SkyPalette.prefab using Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022f058a9f2c03c933c2dc5486b3882a') in 0.014585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.796267 seconds.
+  path: Assets/MagicCliffsArtwork/sky.png
+  artifactKey: Guid(934d773f096874824bd544d55c4d8538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/sky.png using Guid(934d773f096874824bd544d55c4d8538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec0f2927550f2c57a3c18c88be95f9d') in 0.022072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.647880 seconds.
+  path: Assets/MagicCliffsArtwork/sky.png
+  artifactKey: Guid(934d773f096874824bd544d55c4d8538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/sky.png using Guid(934d773f096874824bd544d55c4d8538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecd682d64f35479dd96a18671904b724') in 0.029719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.008017 seconds.
+  path: Assets/MagicCliffsArtwork/sky.png
+  artifactKey: Guid(934d773f096874824bd544d55c4d8538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/sky.png using Guid(934d773f096874824bd544d55c4d8538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623ea0cc786d1ab4b3244053fbd675af') in 0.025273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.140389 seconds.
+  path: Assets/MagicCliffsArtwork/SkyPalette.prefab
+  artifactKey: Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/SkyPalette.prefab using Guid(182bc4d629aba2f429f6ca2bce3f4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de399973e2852cef79de914dcd6be343') in 0.014629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.421295 seconds.
+  path: Assets/MagicCliffsArtwork/NewSky.prefab
+  artifactKey: Guid(73b7e91c88b0d7244b8d485123090881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/NewSky.prefab using Guid(73b7e91c88b0d7244b8d485123090881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786bf5ca51d80e751fecd5e27f262f27') in 0.014295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.574260 seconds.
+  path: Assets/MagicCliffsArtwork/NewSky.prefab
+  artifactKey: Guid(73b7e91c88b0d7244b8d485123090881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MagicCliffsArtwork/NewSky.prefab using Guid(73b7e91c88b0d7244b8d485123090881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a3d2bf90c70ad89d1bcf10dfa349613') in 0.014047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.117136 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/clouds.asset
+  artifactKey: Guid(9d83a18de0b9ccd41bfce37af439e1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/clouds.asset using Guid(9d83a18de0b9ccd41bfce37af439e1bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f78e8cb507777a60fecdfac9a3c0f3e') in 0.013784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/sky_1.asset
+  artifactKey: Guid(6f3a3a91bca577c4aa907ea36b3697f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/sky_1.asset using Guid(6f3a3a91bca577c4aa907ea36b3697f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3de14722597133da02d1a32ee4817dd7') in 0.015335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/sky_2.asset
+  artifactKey: Guid(4b638c6d4a223fa4d806b4df2b0e3b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/sky_2.asset using Guid(4b638c6d4a223fa4d806b4df2b0e3b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2105a54fd1a652f7eebbecf2df36c1') in 0.025549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/sky_2 1.asset
+  artifactKey: Guid(4805205eeeb2b294ebcb391bf0ec8009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/sky_2 1.asset using Guid(4805205eeeb2b294ebcb391bf0ec8009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9f6f733f723dbc097e586cf143087b') in 0.014339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/sky_0.asset
+  artifactKey: Guid(4cef2ce53d35cc144bb8d7494a676f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/sky_0.asset using Guid(4cef2ce53d35cc144bb8d7494a676f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc47c790a39532762bec7df764f2e320') in 0.016838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.083177 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stairs X48 1.asset
+  artifactKey: Guid(deecddd5fd7b9e140a7f7ba2e770ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stairs X48 1.asset using Guid(deecddd5fd7b9e140a7f7ba2e770ba12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5fd9e7d0717e0801911b3c77a2397d8') in 0.020405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stall Fruit 08.asset
+  artifactKey: Guid(a684f83ce84ac664b80dd993f246651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stall Fruit 08.asset using Guid(a684f83ce84ac664b80dd993f246651e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2acb294f59fbb1f596cf933e3c4ed6cf') in 0.021123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stone of Recall - Glow 1.asset
+  artifactKey: Guid(dc4117f6657ff864a9008d9e235e518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stone of Recall - Glow 1.asset using Guid(dc4117f6657ff864a9008d9e235e518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de71ff3b913deb8664fddfe509450d14') in 0.024827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stone of Recall 1.asset
+  artifactKey: Guid(7455c7174cdc6b340bac331251b53518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Stone of Recall 1.asset using Guid(7455c7174cdc6b340bac331251b53518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb42153bb8d38df9a0af2df032fecef') in 0.022504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 04.asset
+  artifactKey: Guid(b5b90c0c66b01904bbe95e0f00a26526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 04.asset using Guid(b5b90c0c66b01904bbe95e0f00a26526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b79e14f24ad65d29a48dcb56b84645') in 0.021714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Weapon Rack 1.asset
+  artifactKey: Guid(d3f6fafc1216058419970ba44f56afc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Weapon Rack 1.asset using Guid(d3f6fafc1216058419970ba44f56afc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '454cc18275697e486cf62374ce4c4768') in 0.015182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Torch 1.asset
+  artifactKey: Guid(83b2b9fa0350f134d80c888ecf8ff0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Torch 1.asset using Guid(83b2b9fa0350f134d80c888ecf8ff0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64af2699d47cd0ac03ce4c51ea1e057e') in 0.019402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 05.asset
+  artifactKey: Guid(a3367d90b36a3c74f8d95ccf296f3c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Sunflower 05.asset using Guid(a3367d90b36a3c74f8d95ccf296f3c85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08442be1dfaee2cef0342a9878cb30be') in 0.014275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wheat 09.asset
+  artifactKey: Guid(ad755e399fa16e54aa4651aec5511cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wheat 09.asset using Guid(ad755e399fa16e54aa4651aec5511cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e79cfaae02f6719ec3a2894e8db73a4') in 0.013503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.135254 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wheelbarrow 1.asset
+  artifactKey: Guid(69fa938095f7069419e001e435ec2a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wheelbarrow 1.asset using Guid(69fa938095f7069419e001e435ec2a65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07a3638b3282a0fe239d7f5da70df44') in 0.013860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030654 seconds.
+  path: Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 06.asset
+  artifactKey: Guid(9154dfe8177bf074cbd4f732851fce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Village Props - Wooden Bridge Part 06.asset using Guid(9154dfe8177bf074cbd4f732851fce2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdf440c293e04dfb20e41f2f44721c90') in 0.013028 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
