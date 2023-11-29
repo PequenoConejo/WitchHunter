@@ -8,8 +8,6 @@ public class VictoryScreenScript : MonoBehaviour
 {
     public void OnLobbyButtonClicked()
     {
-        /*PhotonNetwork.CurrentRoom.IsOpen = false;
-        PhotonNetwork.CurrentRoom.IsVisible = false;*/
 
         // PhotonNetwork.LoadLevel("DemoAsteroids-GameScene");
         // PhotonNetwork.LoadLevel("LobbyScene");
