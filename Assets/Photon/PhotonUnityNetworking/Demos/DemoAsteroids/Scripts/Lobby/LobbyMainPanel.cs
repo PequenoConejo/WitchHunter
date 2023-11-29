@@ -51,6 +51,9 @@ namespace Photon.Pun.Demo.Asteroids
             roomListEntries = new Dictionary<string, GameObject>();
             
             PlayerNameInput.text = "Player " + Random.Range(1000, 10000);
+
+            // BUG REPORT TEST
+            Debug.LogException(new System.Exception("Testing Cloud Diagnostics reports"));
         }
 
         #endregion
