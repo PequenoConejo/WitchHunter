@@ -11,7 +11,6 @@ public class VictoryScreenScript : MonoBehaviour
 
         // PhotonNetwork.LoadLevel("DemoAsteroids-GameScene");
         // PhotonNetwork.LoadLevel("LobbyScene");
-        // PhotonNetwork.LeaveRoom();
 
         // Just leaving when demo ends
         Application.Quit();
